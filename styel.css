@@ -1,0 +1,142 @@
+header {
+  background-color: #0f054b;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-family: "Architects Daughter", cursive;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.intro {
+  text-align: center;
+  margin: 50px 5%;
+  font-family: "Architects Daughter", cursive;
+}
+.intro p {
+  font-family: "Roboto Serif", serif;
+}
+.entire {
+  background-color: #0f054b;
+  padding: 10px 5px 15px 5px;
+  max-width: 1000px;
+  margin: 80px auto 80px auto;
+}
+.top-box-image {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.top-box-image img {
+  float: right;
+  width: 40%;
+}
+
+.text-only {
+  color: #eab009;
+  font-family: "Roboto Serif", serif;
+  width: 80%;
+  padding-right: 10px;
+  margin: 10px;
+}
+.text-only-bottom {
+  color: red;
+  font-family: "Roboto Serif", serif;
+  width: 80%;
+  padding-right: 10px;
+  margin: 10px;
+}
+.text-only p {
+  color: white;
+}
+.text-only-bottom p {
+  color: white;
+}
+
+.white-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+}
+.indiv-images1 {
+  padding: 15px;
+  width: 150px;
+  min-width: 50px;
+}
+.indiv-images2 {
+  padding: 15px;
+  width: 150px;
+  min-width: 50px;
+}
+.indiv-images3 {
+  padding: 15px;
+  width: 150px;
+  min-width: 50px;
+}
+.indiv-images4 {
+  padding: 15px;
+  width: 150px;
+  min-width: 50px;
+}
+
+.indiv-images5 {
+  padding: 15px;
+  width: 150px;
+  min-width: 50px;
+}
+
+footer {
+  background-color: #0f054b;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+  font-family: "Architects Daughter", cursive;
+}
+
+@media all and (max-width: 500px) {
+  .white-image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    flex-shrink: 1;
+  }
+  .indiv-images1 {
+    padding: 2px;
+    width: 150px;
+    min-width: 50px;
+  }
+  .indiv-images2 {
+    padding: 2px;
+    width: 150px;
+    min-width: 50px;
+  }
+  .indiv-images3 {
+    padding: 2px;
+    width: 150px;
+    min-width: 50px;
+  }
+  .indiv-images4 {
+    padding: 2px;
+    width: 150px;
+    min-width: 50px;
+  }
+
+  .indiv-images5 {
+    padding: 5px;
+    width: 150px;
+    min-width: 50px;
+  }
+}
